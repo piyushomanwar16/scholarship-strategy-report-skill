@@ -1,6 +1,11 @@
 ---
 name: scholarship-strategy-report
-description: 'Use this skill to produce a professional, consulting-style scholarship / study-abroad strategy report PDF for a specific applicant. Triggers: a user wants a personalized scholarship report, study-abroad strategy, funding combinations, or which scholarships to apply to, or asks to compare their profile against past recipients and produce a ranked, charted PDF. The skill gathers the applicant profile and preferences through a structured questionnaire, performs the analysis including political and geopolitical risk and benchmark comparisons, and renders a polished PDF with tables, radar charts and bar charts using the bundled Python generator.'
+description: 'Produces a professional, consulting-style scholarship / study-abroad strategy report PDF for an applicant. Use when a user wants a personalized scholarship report, a study-abroad strategy, ranked funding combinations, or to compare their profile against past recipients and receive a charted PDF. The skill gathers the applicant profile and preferences through a structured questionnaire, performs the analysis including political and geopolitical risk and benchmark comparisons, and renders a polished PDF with tables, radar charts and bar charts using the bundled Python generator.'
+license: MIT
+compatibility: Requires Python 3.10+ and pip install of reportlab, matplotlib, numpy (see requirements.txt). Runs locally; no network access needed.
+metadata:
+  author: piyushomanwar16
+  version: "1.0.0"
 ---
 
 # Scholarship Strategy Report

@@ -42,10 +42,9 @@ Star ratings in table cells are written as text, e.g. "★★★★☆".
 
 import json
 import math
-import os
-import shutil
 import sys
 import tempfile
+from pathlib import Path
 
 import matplotlib
 
@@ -588,7 +587,7 @@ def build(data, output_path):
     if prof.get("strength"):
         s = prof["strength"]
         story.append(Paragraph("Profile Strength vs Average Applicant", SS["H2"]))
-        p = os.path.join(tmp, "strength.png")
+        p = Path(tmp) / "strength.png"
         make_grouped_bar(s["labels"], [("You", s.get("you", []), "#1F3864"),
                                        ("Average", s.get("average", []), "#B0B7C3")],
                          p, title="Profile Strength (0–10)")
@@ -603,7 +602,7 @@ def build(data, output_path):
     if land.get("acceptance"):
         a = land["acceptance"]
         story.append(Spacer(1, 0.1 * inch))
-        p = os.path.join(tmp, "acceptance.png")
+        p = Path(tmp) / "acceptance.png"
         make_bar(a["labels"], a["values"], p, title="Acceptance Rates by Award Type (%)", color="#2E5496")
         story.append(Image(p, width=avail_w * 0.92, height=avail_w * 0.92 * 0.55, hAlign="CENTER"))
     story.append(PageBreak())
@@ -612,7 +611,7 @@ def build(data, output_path):
     story.append(section_header("", "Scholarship Value Comparison"))
     vc = data.get("value_comparison", {})
     if vc.get("labels"):
-        p = os.path.join(tmp, "value.png")
+        p = Path(tmp) / "value.png"
         make_bar(vc["labels"], vc["values"], p, title="Estimated Award Value (CAD '000)", horizontal=True, color="#1F3864")
         story.append(Image(p, width=avail_w * 0.9, height=avail_w * 0.9 * 0.6, hAlign="CENTER"))
     story.append(PageBreak())
@@ -636,7 +635,7 @@ def build(data, output_path):
     comp = data.get("comparison", {})
     if comp.get("radar"):
         r = comp["radar"]
-        p = os.path.join(tmp, "radar.png")
+        p = Path(tmp) / "radar.png"
         make_radar(r["labels"], [("You", r.get("you", []), "#1F3864"),
                                  ("Typical Winner", r.get("typical", []), "#C00000")], p,
                    title="You vs Typical Winner")
@@ -730,7 +729,11 @@ def build(data, output_path):
                             topMargin=MARGIN, bottomMargin=0.9 * inch,
                             title=title, author="Scholarship Strategy Report Skill")
     doc.build(story, onFirstPage=_cover, onLaterPages=_footer)
-    shutil.rmtree(tmp, ignore_errors=True)
+    for _f in Path(tmp).glob("*.png"):
+        try:
+            _f.unlink()
+        except OSError:
+            pass
 
 
 def _fit_widths(ncols, weights=None):
@@ -742,7 +745,7 @@ def _fit_widths(ncols, weights=None):
 
 # --------------------------------------------------------------------------- #
 def main():
-    if len(sys.argv) >= 2 and os.path.exists(sys.argv[1]):
+    if len(sys.argv) >= 2 and Path(sys.argv[1]).exists():
         with open(sys.argv[1], "r", encoding="utf-8") as f:
             data = json.load(f)
         out = sys.argv[2] if len(sys.argv) >= 3 else "scholarship_report.pdf"
