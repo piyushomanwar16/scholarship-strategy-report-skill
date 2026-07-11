@@ -1,0 +1,797 @@
+{
+  "meta": {
+    "title": "STUDY IN CANADA",
+    "subtitle": "COMPREHENSIVE SCHOLARSHIP STRATEGY REPORT",
+    "prepared_for": "Alex Morgan",
+    "date": "July 2026",
+    "universities": [
+      "University of Toronto",
+      "UBC",
+      "McGill University",
+      "University of Waterloo"
+    ]
+  },
+  "toc": [
+    {
+      "num": "1",
+      "title": "Executive Summary",
+      "desc": "Overview of findings and strategy"
+    },
+    {
+      "num": "2",
+      "title": "Applicant Profile",
+      "desc": "Strengths, attributes and benchmarking"
+    },
+    {
+      "num": "3",
+      "title": "Scholarship Landscape",
+      "desc": "Costs, coverage and competition"
+    },
+    {
+      "num": "4",
+      "title": "Past Recipient Analysis",
+      "desc": "Benchmark case studies"
+    },
+    {
+      "num": "5",
+      "title": "Comparative Analysis",
+      "desc": "You vs the typical winner"
+    },
+    {
+      "num": "6",
+      "title": "Funding Combinations",
+      "desc": "10 fully-funded pathways ranked"
+    },
+    {
+      "num": "7",
+      "title": "Feasibility Analysis",
+      "desc": "Tier rankings and honest verdict"
+    },
+    {
+      "num": "8",
+      "title": "Improvement Roadmap",
+      "desc": "Critical, important, nice-to-have"
+    },
+    {
+      "num": "9",
+      "title": "12-Month Timeline",
+      "desc": "Month-by-month action plan"
+    },
+    {
+      "num": "10",
+      "title": "Final Verdict",
+      "desc": "Best bets and recommendations"
+    }
+  ],
+  "executive_summary": {
+    "intro": "This report evaluates 10 fully-funded and substantially-funded scholarship pathways for the applicant's targeted graduate studies in Canada. Findings combine the applicant's academic and leadership profile with current scholarship availability, geopolitical stability of host regions, and benchmark data from past recipients.",
+    "findings": [
+      "The applicant's research output and leadership positioning place them in the top quartile versus the typical awardee for mid-tier national scholarships, but below the threshold for the most selective flagship awards.",
+      "Full funding is realistically achievable at 4 of the 10 combinations when combined with on-campus assistantships and external charity sponsors, reducing the net gap to under CAD 8,000 in the strongest case.",
+      "Geopolitical and visa conditions in the target country are currently stable, with no advisory-level disruptions affecting student permit processing for the applicant's nationality.",
+      "The single highest-leverage improvement is a peer-reviewed publication or preprint before the October deadline, which materially shifts tier-1 eligibility."
+    ]
+  },
+  "profile": {
+    "attributes": [
+      [
+        "Full Name",
+        "Alex Morgan"
+      ],
+      [
+        "Nationality",
+        "Indian"
+      ],
+      [
+        "Current Location",
+        "Bengaluru, India"
+      ],
+      [
+        "Age",
+        "21"
+      ],
+      [
+        "Education",
+        "B.Tech, Computer Science (expected 2027)"
+      ],
+      [
+        "GPA / Percentage",
+        "9.2 CGPA (94%)"
+      ],
+      [
+        "Test Scores",
+        "IELTS 7.5; SAT 1480"
+      ],
+      [
+        "Financial Need",
+        "High — family income below national median"
+      ],
+      [
+        "Part-time Capacity",
+        "Up to 20 hrs/week on-campus"
+      ]
+    ],
+    "comparison": {
+      "headers": [
+        "University",
+        "Ranking",
+        "Est. Cost/yr",
+        "Key Requirement",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "UBC",
+          "#34",
+          "CAD 42k",
+          "85% avg + research",
+          "Strong int'l support"
+        ],
+        [
+          "Toronto",
+          "#21",
+          "CAD 48k",
+          "Competitive + IELTS 7",
+          "High cost, high prestige"
+        ],
+        [
+          "McGill",
+          "#30",
+          "CAD 40k",
+          "Strong EC + grades",
+          "Bilingual advantage"
+        ],
+        [
+          "Waterloo",
+          "#112",
+          "CAD 38k",
+          "Cohort + co-op",
+          "Best ROI via co-op"
+        ]
+      ]
+    },
+    "strength": {
+      "labels": [
+        "Academics",
+        "Research",
+        "Leadership",
+        "Test Scores",
+        "Extracurricular",
+        "Need"
+      ],
+      "you": [
+        9,
+        8,
+        7,
+        8,
+        7,
+        9
+      ],
+      "average": [
+        7,
+        5,
+        6,
+        7,
+        6,
+        5
+      ]
+    }
+  },
+  "landscape": {
+    "paragraphs": [
+      "International graduate study in Canada carries an average all-in cost of CAD 38,000–52,000 per year including tuition, housing and living expenses. Fully-funded awards typically cover tuition plus a living stipend, while partial awards cover 30–70% of tuition and require the applicant to close the remaining gap through assistantships or personal means.",
+      "Competition is intensifying: flagship national awards receive 8–15x more applicants than available slots, whereas university-specific and sponsor-linked awards show markedly higher conversion rates for well-matched profiles. Strategic stacking of a partial scholarship with a research assistantship is the most reliable path to full funding.",
+      "Geopolitical conditions in Canada remain favourable for international students, with stable permit processing and no active travel advisories affecting the applicant's nationality. Currency volatility against the home currency is the primary financial risk and is reflected in the gap analysis below."
+    ],
+    "acceptance": {
+      "labels": [
+        "Flagship",
+        "Univ Merit",
+        "Sponsor",
+        "Assistantship",
+        "Charity"
+      ],
+      "values": [
+        7,
+        18,
+        24,
+        41,
+        33
+      ]
+    }
+  },
+  "value_comparison": {
+    "labels": [
+      "Pearson",
+      "Killam",
+      "Waterloo P.",
+      "McGill M.",
+      "Lester B."
+    ],
+    "values": [
+      90,
+      75,
+      60,
+      55,
+      95
+    ]
+  },
+  "past_winners": [
+    {
+      "heading": "Lester B. Pearson Scholars — Cohort Profile",
+      "description": "Flagship undergraduate-focused award; winners share exceptional leadership and community impact.",
+      "table": {
+        "headers": [
+          "Name",
+          "Background",
+          "Achievement",
+          "Program"
+        ],
+        "rows": [
+          [
+            "R. Ahmed",
+            "Public school, rural",
+            "Founded 3 NGOs, 12k beneficiaries",
+            "UBC Sci"
+          ],
+          [
+            "M. Chen",
+            "IB 43",
+            "Int'l Olympiad silver",
+            "Toronto Eng"
+          ],
+          [
+            "S. Okoro",
+            "Refugee background",
+            "Youth parliament leader",
+            "McGill Arts"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Killam Fellows — Graduate Benchmark",
+      "description": "Research-intensive graduate award favouring publications and measurable impact.",
+      "table": {
+        "headers": [
+          "Name",
+          "Background",
+          "Achievement",
+          "Program"
+        ],
+        "rows": [
+          [
+            "T. Singh",
+            "BTech, 2 papers",
+            "Open-source, 40k users",
+            "Waterloo CS"
+          ],
+          [
+            "L. Park",
+            "MSc, 1 patent",
+            "Lab leadership",
+            "Toronto Bio"
+          ]
+        ]
+      }
+    }
+  ],
+  "comparison": {
+    "radar": {
+      "labels": [
+        "Academics",
+        "Research",
+        "Leadership",
+        "SAT",
+        "Community",
+        "Olympiads"
+      ],
+      "you": [
+        9,
+        8,
+        7,
+        8,
+        7,
+        6
+      ],
+      "typical": [
+        7,
+        6,
+        6,
+        7,
+        6,
+        5
+      ]
+    },
+    "table": {
+      "headers": [
+        "Dimension",
+        "You",
+        "Typical Winner"
+      ],
+      "rows": [
+        [
+          "Academics",
+          "9 / 10",
+          "7 / 10"
+        ],
+        [
+          "Research",
+          "8 / 10",
+          "6 / 10"
+        ],
+        [
+          "Leadership",
+          "7 / 10",
+          "6 / 10"
+        ],
+        [
+          "SAT / Equivalent",
+          "1480",
+          "1380"
+        ],
+        [
+          "Community",
+          "7 / 10",
+          "6 / 10"
+        ],
+        [
+          "Olympiads",
+          "6 / 10",
+          "5 / 10"
+        ]
+      ]
+    }
+  },
+  "combinations": [
+    {
+      "heading": "1 · UBC Int'l Scholar + RA Stack",
+      "description": "Flagship merit award stacked with a research assistantship to approach full funding.",
+      "table": {
+        "headers": [
+          "#",
+          "Scholarship Stack",
+          "Funding",
+          "Income",
+          "Gap",
+          "Rating"
+        ],
+        "rows": [
+          [
+            "1",
+            "UBC Int'l + RA",
+            "CAD 38k",
+            "CAD 10k",
+            "CAD 0",
+            "★★★★★"
+          ],
+          [
+            "2",
+            "UBC Int'l only",
+            "CAD 25k",
+            "CAD 4k",
+            "CAD 13k",
+            "★★★★☆"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "2 · Toronto Fellowship + Charity Sponsor",
+      "description": "Prestige pathway; charity sponsor closes the high-cost gap.",
+      "table": {
+        "headers": [
+          "#",
+          "Scholarship Stack",
+          "Funding",
+          "Income",
+          "Gap",
+          "Rating"
+        ],
+        "rows": [
+          [
+            "1",
+            "Toronto Fellow + Sponsor",
+            "CAD 44k",
+            "CAD 8k",
+            "CAD 0",
+            "★★★★★"
+          ],
+          [
+            "2",
+            "Toronto Fellow only",
+            "CAD 30k",
+            "CAD 6k",
+            "CAD 18k",
+            "★★★☆☆"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "3 · McGill Entrance + Needs Bursary",
+      "description": "Strong fit for high-need, high-EC profiles.",
+      "table": {
+        "headers": [
+          "#",
+          "Scholarship Stack",
+          "Funding",
+          "Income",
+          "Gap",
+          "Rating"
+        ],
+        "rows": [
+          [
+            "1",
+            "McGill Entrance + Bursary",
+            "CAD 36k",
+            "CAD 6k",
+            "CAD 0",
+            "★★★★☆"
+          ],
+          [
+            "2",
+            "McGill Entrance only",
+            "CAD 22k",
+            "CAD 5k",
+            "CAD 13k",
+            "★★★☆☆"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "4 · Waterloo Co-op + Scholarship",
+      "description": "Best ROI; co-op earnings materially reduce net cost.",
+      "table": {
+        "headers": [
+          "#",
+          "Scholarship Stack",
+          "Funding",
+          "Income",
+          "Gap",
+          "Rating"
+        ],
+        "rows": [
+          [
+            "1",
+            "Waterloo Pres + Co-op",
+            "CAD 30k",
+            "CAD 15k",
+            "CAD 0",
+            "★★★★★"
+          ],
+          [
+            "2",
+            "Waterloo Pres only",
+            "CAD 18k",
+            "CAD 6k",
+            "CAD 14k",
+            "★★★★☆"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "5 · Killam Graduate Fellowship",
+      "description": "Research-intensive; requires publications.",
+      "table": {
+        "headers": [
+          "#",
+          "Scholarship Stack",
+          "Funding",
+          "Income",
+          "Gap",
+          "Rating"
+        ],
+        "rows": [
+          [
+            "1",
+            "Killam + TA",
+            "CAD 40k",
+            "CAD 8k",
+            "CAD 0",
+            "★★★★☆"
+          ],
+          [
+            "2",
+            "Killam only",
+            "CAD 32k",
+            "CAD 4k",
+            "CAD 12k",
+            "★★★☆☆"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "6 · Government Bilateral Award",
+      "description": "Home-government funded; stable but competitive.",
+      "table": {
+        "headers": [
+          "#",
+          "Scholarship Stack",
+          "Funding",
+          "Income",
+          "Gap",
+          "Rating"
+        ],
+        "rows": [
+          [
+            "1",
+            "Gov Bilateral + RA",
+            "CAD 35k",
+            "CAD 9k",
+            "CAD 0",
+            "★★★★☆"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "7 · Private Company Sponsorship",
+      "description": "Corporate-linked award with bonding obligation.",
+      "table": {
+        "headers": [
+          "#",
+          "Scholarship Stack",
+          "Funding",
+          "Income",
+          "Gap",
+          "Rating"
+        ],
+        "rows": [
+          [
+            "1",
+            "Tech Corp Sponsor",
+            "CAD 28k",
+            "CAD 8k",
+            "CAD 6k",
+            "★★★☆☆"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "8 · Charity / Foundation Grant",
+      "description": "Need-based philanthropic funding.",
+      "table": {
+        "headers": [
+          "#",
+          "Scholarship Stack",
+          "Funding",
+          "Income",
+          "Gap",
+          "Rating"
+        ],
+        "rows": [
+          [
+            "1",
+            "Foundation Grant + TA",
+            "CAD 30k",
+            "CAD 7k",
+            "CAD 3k",
+            "★★★★☆"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "9 · Lester B. Pearson (Stretch)",
+      "description": "Most selective; stretch target.",
+      "table": {
+        "headers": [
+          "#",
+          "Scholarship Stack",
+          "Funding",
+          "Income",
+          "Gap",
+          "Rating"
+        ],
+        "rows": [
+          [
+            "1",
+            "Pearson Full",
+            "CAD 50k",
+            "CAD 6k",
+            "CAD 0",
+            "★★★★★"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "10 · Self-Funded + Partial Merit",
+      "description": "Safety net if awards fall through.",
+      "table": {
+        "headers": [
+          "#",
+          "Scholarship Stack",
+          "Funding",
+          "Income",
+          "Gap",
+          "Rating"
+        ],
+        "rows": [
+          [
+            "1",
+            "Partial Merit + Savings",
+            "CAD 15k",
+            "CAD 5k",
+            "CAD 28k",
+            "★★☆☆☆"
+          ]
+        ]
+      }
+    }
+  ],
+  "feasibility": {
+    "tiers": [
+      {
+        "name": "TIER 1 — Realistic Full Funding",
+        "text": "Combinations 1, 2, 4 and 9 close the funding gap to zero when stacked with assistantships or sponsors. These require the applicant's profile to remain on its current trajectory with one additional publication."
+      },
+      {
+        "name": "TIER 2 — Strong Partial + Work",
+        "text": "Combinations 3, 5, 6 and 8 cover 70–90% of cost and rely on 15–20 hrs/week of on-campus income. Net gaps stay under CAD 8,000."
+      },
+      {
+        "name": "TIER 3 — Safety Net",
+        "text": "Combination 10 is the fallback: partial merit plus personal savings. Viable but leaves a meaningful gap and should only be activated if Tier 1/2 options are exhausted."
+      }
+    ],
+    "verdict": {
+      "highlights": [
+        "Full funding is achievable at 4 of 10 combinations with disciplined stacking and one preprint by October.",
+        "The highest-risk assumption is permit/currency stability; both currently favour the applicant but should be re-checked quarterly."
+      ]
+    }
+  },
+  "roadmap": {
+    "critical": [
+      {
+        "h": "Publish or preprint research",
+        "t": "Submit one manuscript to a peer-reviewed venue or arXiv before the October deadline."
+      },
+      {
+        "h": "Secure one recommendation early",
+        "t": "Lock in your strongest academic referee by August to avoid bottleneck."
+      }
+    ],
+    "important": [
+      {
+        "h": "Finalise target shortlist",
+        "t": "Confirm 3 primary and 2 stretch universities by end of August."
+      },
+      {
+        "h": "Open permit file",
+        "t": "Begin permit documentation in parallel with applications to absorb processing time."
+      }
+    ],
+    "nice": [
+      {
+        "h": "Attend virtual fairs",
+        "t": "Engage admissions sessions to build demonstrated interest."
+      },
+      {
+        "h": "Language upskilling",
+        "t": "Minor French exposure strengthens McGill and bilingual narratives."
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "month": "July",
+      "tasks": [
+        "Finalise profile document",
+        "Shortlist 10 combinations",
+        "Begin manuscript draft"
+      ]
+    },
+    {
+      "month": "August",
+      "tasks": [
+        "Secure referees",
+        "Draft personal statements",
+        "Open permit file"
+      ]
+    },
+    {
+      "month": "September",
+      "tasks": [
+        "Submit manuscripts",
+        "Complete applications",
+        "Apply to charity sponsors"
+      ]
+    },
+    {
+      "month": "October",
+      "tasks": [
+        "Final deadline submissions",
+        "Follow up on aids",
+        "Interview prep"
+      ]
+    },
+    {
+      "month": "November",
+      "tasks": [
+        "Interview rounds",
+        "Track outcomes"
+      ]
+    },
+    {
+      "month": "December",
+      "tasks": [
+        "Receive decisions",
+        "Compare net costs"
+      ]
+    },
+    {
+      "month": "January",
+      "tasks": [
+        "Accept offer",
+        "Finalise funding stack"
+      ]
+    },
+    {
+      "month": "February",
+      "tasks": [
+        "Permit submission",
+        "Housing search"
+      ]
+    },
+    {
+      "month": "March",
+      "tasks": [
+        "Visa approval follow-up",
+        "Travel booking"
+      ]
+    },
+    {
+      "month": "April",
+      "tasks": [
+        "Pre-departure prep",
+        "On-campus job applications"
+      ]
+    },
+    {
+      "month": "May",
+      "tasks": [
+        "Arrival logistics",
+        "Orientation"
+      ]
+    },
+    {
+      "month": "June",
+      "tasks": [
+        "Program start",
+        "RA/TA onboarding"
+      ]
+    }
+  ],
+  "final_verdict": {
+    "bets": [
+      {
+        "label": "BEST BET",
+        "text": "Combination 4 — Waterloo Co-op + Scholarship: best ROI and reliable full funding via earnings."
+      },
+      {
+        "label": "SAFEST BET",
+        "text": "Combination 1 — UBC Int'l Scholar + RA: prestigious and fully fundable with current profile."
+      },
+      {
+        "label": "BEST RANKING",
+        "text": "Combination 2 — Toronto Fellowship + Sponsor: maximises institutional prestige."
+      },
+      {
+        "label": "BEST SELF-FUNDING",
+        "text": "Combination 10 — Partial Merit + Savings: dependable fallback."
+      },
+      {
+        "label": "STRETCH BET",
+        "text": "Combination 9 — Lester B. Pearson: highest reward, lowest probability; apply but do not rely on it."
+      }
+    ],
+    "conclusion": "With one additional publication and disciplined stacking of assistantships and sponsors, the applicant can achieve full or near-full funding at a top Canadian institution. The plan is realistic, time-bound and resilient to current geopolitical conditions. Begin immediately — the October deadline is the pivot point."
+  }
+}
