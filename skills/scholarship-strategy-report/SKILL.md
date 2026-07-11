@@ -1,6 +1,6 @@
 ---
 name: scholarship-strategy-report
-description: Use this skill to produce a professional, consulting-style 19-section scholarship / study-abroad strategy report PDF for a specific applicant. Triggers: a user wants a personalized scholarship report, "study abroad strategy", "funding combinations", "which scholarships should I apply to", or asks to compare their profile against past recipients and produce a ranked, charted PDF report. The skill gathers the applicant's profile and preferences through a structured questionnaire, performs the analysis (including political/geopolitical risk and benchmark comparisons), and renders a polished PDF with tables, radar charts and bar charts using the bundled Python generator.
+description: 'Use this skill to produce a professional, consulting-style scholarship / study-abroad strategy report PDF for a specific applicant. Triggers: a user wants a personalized scholarship report, study-abroad strategy, funding combinations, or which scholarships to apply to, or asks to compare their profile against past recipients and produce a ranked, charted PDF. The skill gathers the applicant profile and preferences through a structured questionnaire, performs the analysis including political and geopolitical risk and benchmark comparisons, and renders a polished PDF with tables, radar charts and bar charts using the bundled Python generator.'
 ---
 
 # Scholarship Strategy Report
