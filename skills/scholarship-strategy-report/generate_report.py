@@ -51,7 +51,6 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from matplotlib.patches import Polygon
 
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY, TA_LEFT
@@ -662,7 +661,7 @@ def build(data, output_path):
         t = combo.get("table", {})
         if t.get("headers"):
             ncols = len(t["headers"])
-            cw = [avail_w * w for w in _fit_widths(ncols, [0.5, 0.34, 0.16, 0.16, 0.16, 0.14])]
+            cw = [avail_w * w for w in _fit_widths(ncols, [0.06, 0.36, 0.16, 0.16, 0.16, 0.10])]
             block.append(styled_table(t["headers"], t["rows"], col_widths=cw))
         block.append(Spacer(1, 0.18 * inch))
         story.append(KeepTogether(block))
